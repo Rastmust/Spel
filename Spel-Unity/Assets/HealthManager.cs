@@ -13,7 +13,7 @@ public class HealthManager : MonoBehaviour
         currentHealth -= damageToGive;
         if (currentHealth <= 0)
         {
-            gameObject.Transform.Position = spawnPoint.Transform.Position
+            // gameObject.Transform.Position = spawnPoint.Transform.Position
         }
     }
 }
